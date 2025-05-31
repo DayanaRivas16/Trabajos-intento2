@@ -1,0 +1,452 @@
+[
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": ".vscode.sentencia if",
+        "description": ".vscode.sentencia if",
+        "peekOfCode": "x = 15\nif x > 10:\n    print(\"por encima de diez,\")\nif x > 20:\n    print(\"y también por encima de 20!\")\nelse:\n    print(\"pero no por encima de 20\")\"\"\"\nprint(\"Ejercicio en clase-ejemplo\")\nnumero1=int(input(\"ingresa el numero 1: \"))\nnumero2=int(input(\"ingresa el segundo numero: \"))",
+        "detail": ".vscode.sentencia if",
+        "documentation": {}
+    },
+    {
+        "label": "nombre1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nombre1 = input(\"Nombre del producto 1: \")\nprecio1 = float(input(\"Precio del producto 1: \"))\ncantidad1 = int(input(\"Cantidad del producto 1: \"))\nnombre2 = input(\"Nombre del producto 2: \")\nprecio2 = float(input(\"Precio del producto 2: \"))\ncantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "precio1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "precio1 = float(input(\"Precio del producto 1: \"))\ncantidad1 = int(input(\"Cantidad del producto 1: \"))\nnombre2 = input(\"Nombre del producto 2: \")\nprecio2 = float(input(\"Precio del producto 2: \"))\ncantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "cantidad1 = int(input(\"Cantidad del producto 1: \"))\nnombre2 = input(\"Nombre del producto 2: \")\nprecio2 = float(input(\"Precio del producto 2: \"))\ncantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nombre2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nombre2 = input(\"Nombre del producto 2: \")\nprecio2 = float(input(\"Precio del producto 2: \"))\ncantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "precio2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "precio2 = float(input(\"Precio del producto 2: \"))\ncantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "cantidad2 = int(input(\"Cantidad del producto 2: \"))\nnombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nombre3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nombre3 = input(\"Nombre del producto 3: \")\nprecio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "precio3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "precio3 = float(input(\"Precio del producto 3: \"))\ncantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "cantidad3 = int(input(\"Cantidad del producto 3: \"))\nproducto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}\ntotal1 = precio1 * cantidad1",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "producto1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "producto1 = [(nombre1, precio1), cantidad1]\nproducto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}\ntotal1 = precio1 * cantidad1\ntotal2 = precio2 * cantidad2",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "producto2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "producto2 = [(nombre2, precio2), cantidad2]\nproducto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}\ntotal1 = precio1 * cantidad1\ntotal2 = precio2 * cantidad2\ntotal3 = precio3 * cantidad3",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "producto3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "producto3 = [(nombre3, precio3), cantidad3]\nfactura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}\ntotal1 = precio1 * cantidad1\ntotal2 = precio2 * cantidad2\ntotal3 = precio3 * cantidad3\ntotal_general = total1 + total2 + total3",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "factura",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "factura = {\n    \"producto1\": producto1,\n    \"producto2\": producto2,\n    \"producto3\": producto3\n}\ntotal1 = precio1 * cantidad1\ntotal2 = precio2 * cantidad2\ntotal3 = precio3 * cantidad3\ntotal_general = total1 + total2 + total3\nprint(\"\\n--- FACTURA ---\")",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "total1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "total1 = precio1 * cantidad1\ntotal2 = precio2 * cantidad2\ntotal3 = precio3 * cantidad3\ntotal_general = total1 + total2 + total3\nprint(\"\\n--- FACTURA ---\")\nprint(nombre1, \"por\", cantidad1, \"=\", total1)\nprint(nombre2, \"por\", cantidad2, \"=\", total2)\nprint(nombre3, \"por\", cantidad3, \"=\", total3)\nprint(\"TOTAL A PAGAR:\", total_general)\"\"\"\nprint(\"Taller 3\")",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "total2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "total2 = precio2 * cantidad2\ntotal3 = precio3 * cantidad3\ntotal_general = total1 + total2 + total3\nprint(\"\\n--- FACTURA ---\")\nprint(nombre1, \"por\", cantidad1, \"=\", total1)\nprint(nombre2, \"por\", cantidad2, \"=\", total2)\nprint(nombre3, \"por\", cantidad3, \"=\", total3)\nprint(\"TOTAL A PAGAR:\", total_general)\"\"\"\nprint(\"Taller 3\")\n# Ingreso del nombre del estudiante",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "total3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "total3 = precio3 * cantidad3\ntotal_general = total1 + total2 + total3\nprint(\"\\n--- FACTURA ---\")\nprint(nombre1, \"por\", cantidad1, \"=\", total1)\nprint(nombre2, \"por\", cantidad2, \"=\", total2)\nprint(nombre3, \"por\", cantidad3, \"=\", total3)\nprint(\"TOTAL A PAGAR:\", total_general)\"\"\"\nprint(\"Taller 3\")\n# Ingreso del nombre del estudiante\nnombre = input(\"Ingrese el nombre del estudiante: \")",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "total_general",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "total_general = total1 + total2 + total3\nprint(\"\\n--- FACTURA ---\")\nprint(nombre1, \"por\", cantidad1, \"=\", total1)\nprint(nombre2, \"por\", cantidad2, \"=\", total2)\nprint(nombre3, \"por\", cantidad3, \"=\", total3)\nprint(\"TOTAL A PAGAR:\", total_general)\"\"\"\nprint(\"Taller 3\")\n# Ingreso del nombre del estudiante\nnombre = input(\"Ingrese el nombre del estudiante: \")\n# Materia 1",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nombre = input(\"Ingrese el nombre del estudiante: \")\n# Materia 1\nmateria1_nombre = input(\"Ingrese el nombre de la primera asignatura: \")\nnota1_1 = float(input(\"Ingrese la primera nota de \" + materia1_nombre + \": \"))\nnota1_2 = float(input(\"Ingrese la segunda nota de \" + materia1_nombre + \": \"))\npromedio1 = (nota1_1 + nota1_2) / 2\nmateria1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia1_nombre",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia1_nombre = input(\"Ingrese el nombre de la primera asignatura: \")\nnota1_1 = float(input(\"Ingrese la primera nota de \" + materia1_nombre + \": \"))\nnota1_2 = float(input(\"Ingrese la segunda nota de \" + materia1_nombre + \": \"))\npromedio1 = (nota1_1 + nota1_2) / 2\nmateria1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota1_1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota1_1 = float(input(\"Ingrese la primera nota de \" + materia1_nombre + \": \"))\nnota1_2 = float(input(\"Ingrese la segunda nota de \" + materia1_nombre + \": \"))\npromedio1 = (nota1_1 + nota1_2) / 2\nmateria1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota1_2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota1_2 = float(input(\"Ingrese la segunda nota de \" + materia1_nombre + \": \"))\npromedio1 = (nota1_1 + nota1_2) / 2\nmateria1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "promedio1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "promedio1 = (nota1_1 + nota1_2) / 2\nmateria1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia1 = [(materia1_nombre, promedio1), nota1_1, nota1_2]\n# Materia 2\nmateria2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia2_nombre",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia2_nombre = input(\"Ingrese el nombre de la segunda asignatura: \")\nnota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota2_1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota2_1 = float(input(\"Ingrese la primera nota de \" + materia2_nombre + \": \"))\nnota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota2_2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota2_2 = float(input(\"Ingrese la segunda nota de \" + materia2_nombre + \": \"))\npromedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "promedio2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "promedio2 = (nota2_1 + nota2_2) / 2\nmateria2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia2 = [(materia2_nombre, promedio2), nota2_1, nota2_2]\n# Materia 3\nmateria3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia3_nombre",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia3_nombre = input(\"Ingrese el nombre de la tercera asignatura: \")\nnota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota3_1",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota3_1 = float(input(\"Ingrese la primera nota de \" + materia3_nombre + \": \"))\nnota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}\n# Promedio final",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "nota3_2",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "nota3_2 = float(input(\"Ingrese la segunda nota de \" + materia3_nombre + \": \"))\npromedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}\n# Promedio final\npromedio_final = (promedio1 + promedio2 + promedio3) / 3",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "promedio3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "promedio3 = (nota3_1 + nota3_2) / 2\nmateria3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}\n# Promedio final\npromedio_final = (promedio1 + promedio2 + promedio3) / 3\n# Mostrar boletín sin formatear",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "materia3",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "materia3 = [(materia3_nombre, promedio3), nota3_1, nota3_2]\n# Diccionario del estudiante\nestudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}\n# Promedio final\npromedio_final = (promedio1 + promedio2 + promedio3) / 3\n# Mostrar boletín sin formatear\nprint(\"\\n--- BOLETÍN DE CALIFICACIONES ---\\n\")",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "estudiante",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "estudiante = {\n    \"nombre\": nombre,\n    \"materias\": [materia1, materia2, materia3]\n}\n# Promedio final\npromedio_final = (promedio1 + promedio2 + promedio3) / 3\n# Mostrar boletín sin formatear\nprint(\"\\n--- BOLETÍN DE CALIFICACIONES ---\\n\")\nprint(\"Nombre del estudiante:\", estudiante[\"nombre\"])\nprint()",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "promedio_final",
+        "kind": 5,
+        "importPath": ".vscode.taller-de-tuplas_diccionario",
+        "description": ".vscode.taller-de-tuplas_diccionario",
+        "peekOfCode": "promedio_final = (promedio1 + promedio2 + promedio3) / 3\n# Mostrar boletín sin formatear\nprint(\"\\n--- BOLETÍN DE CALIFICACIONES ---\\n\")\nprint(\"Nombre del estudiante:\", estudiante[\"nombre\"])\nprint()\nprint(\"Asignatura:\", materia1[0][0])\nprint(\"  Nota 1:\", materia1[1])\nprint(\"  Nota 2:\", materia1[2])\nprint(\"  Promedio:\", materia1[0][1])\nprint()",
+        "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "lista12",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista12 = [12, 6, 4]\ndivision= lista12[0] / lista12[2]\nprint(division)\n# EJERCICIO 13\ntupla13= (1, 2, 3, 4)\nprint(tupla13[2])\n# EJERCICIO 14\nlista14= [1.5, 2.5, 3.0, 4.0, 5.5]\ntotal= sum(lista14)\nprint(total)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista15",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista15 = [1, 2, 3, 4]\ntupla15 = tuple(lista15)\nprint(tupla15)\n# EJERCICIO 16\ntupla16 = (7, 8, 9)\nlista16 = list(tupla16)\nlista16.append(10)\nprint(lista16)\n# EJERCICIO 17\nlista17 = [1, 2, 3, 4, 5]",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla15",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla15 = tuple(lista15)\nprint(tupla15)\n# EJERCICIO 16\ntupla16 = (7, 8, 9)\nlista16 = list(tupla16)\nlista16.append(10)\nprint(lista16)\n# EJERCICIO 17\nlista17 = [1, 2, 3, 4, 5]\ntupla17 = tuple(lista17)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla16",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla16 = (7, 8, 9)\nlista16 = list(tupla16)\nlista16.append(10)\nprint(lista16)\n# EJERCICIO 17\nlista17 = [1, 2, 3, 4, 5]\ntupla17 = tuple(lista17)\nprint(tupla17[2])\n# EJERCICIO 18\ntupla18 = (5, 10, 15)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista16",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista16 = list(tupla16)\nlista16.append(10)\nprint(lista16)\n# EJERCICIO 17\nlista17 = [1, 2, 3, 4, 5]\ntupla17 = tuple(lista17)\nprint(tupla17[2])\n# EJERCICIO 18\ntupla18 = (5, 10, 15)\nlista18 = list(tupla18)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista17",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista17 = [1, 2, 3, 4, 5]\ntupla17 = tuple(lista17)\nprint(tupla17[2])\n# EJERCICIO 18\ntupla18 = (5, 10, 15)\nlista18 = list(tupla18)\nnuevo_numero= int(input(\"Ingresa un nuevo número: \"))\nlista18[1]= nuevo_numero\nprint(lista18)\n# EJERCICIO 19",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla17",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla17 = tuple(lista17)\nprint(tupla17[2])\n# EJERCICIO 18\ntupla18 = (5, 10, 15)\nlista18 = list(tupla18)\nnuevo_numero= int(input(\"Ingresa un nuevo número: \"))\nlista18[1]= nuevo_numero\nprint(lista18)\n# EJERCICIO 19\nlista19 = [1, 2, 3, 4]",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla18",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla18 = (5, 10, 15)\nlista18 = list(tupla18)\nnuevo_numero= int(input(\"Ingresa un nuevo número: \"))\nlista18[1]= nuevo_numero\nprint(lista18)\n# EJERCICIO 19\nlista19 = [1, 2, 3, 4]\ntupla19 = tuple(lista19)\nprint(len(tupla19))\n# EJERCICIO 20",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista18",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista18 = list(tupla18)\nnuevo_numero= int(input(\"Ingresa un nuevo número: \"))\nlista18[1]= nuevo_numero\nprint(lista18)\n# EJERCICIO 19\nlista19 = [1, 2, 3, 4]\ntupla19 = tuple(lista19)\nprint(len(tupla19))\n# EJERCICIO 20\ntupla20 = (10, 20, 30, 40, 50)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista19",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista19 = [1, 2, 3, 4]\ntupla19 = tuple(lista19)\nprint(len(tupla19))\n# EJERCICIO 20\ntupla20 = (10, 20, 30, 40, 50)\nlista20 = list(tupla20)\nlista20 = lista20[:-1]  \nprint(lista20)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla19",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla19 = tuple(lista19)\nprint(len(tupla19))\n# EJERCICIO 20\ntupla20 = (10, 20, 30, 40, 50)\nlista20 = list(tupla20)\nlista20 = lista20[:-1]  \nprint(lista20)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "tupla20",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "tupla20 = (10, 20, 30, 40, 50)\nlista20 = list(tupla20)\nlista20 = lista20[:-1]  \nprint(lista20)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista20",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista20 = list(tupla20)\nlista20 = lista20[:-1]  \nprint(lista20)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    },
+    {
+        "label": "lista20",
+        "kind": 5,
+        "importPath": ".vscode.tuplaslovisto-taller de tupla",
+        "description": ".vscode.tuplaslovisto-taller de tupla",
+        "peekOfCode": "lista20 = lista20[:-1]  \nprint(lista20)",
+        "detail": ".vscode.tuplaslovisto-taller de tupla",
+        "documentation": {}
+    }
+]

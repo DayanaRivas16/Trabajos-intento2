@@ -128,35 +128,3 @@ lista20 = lista20[:-1]
 print(lista20)
 
 
-"""numero1=int(input("Ingresa el numero 1"))
-numero2=int(input("Ingresa el numero 2"))
-numero3=int(input("Ingresa el numero 3"))
-numero4=int(input("Ingresa el numero 4"))
-numero5=int(input("Ingresa el numero 5"))
-numero6=int(input("Ingresa el numero 6"))
-numero7=int(input("Ingresa el numero 7"))
-numero8=int(input("Ingresa el numero 8"))
-numero9=int(input("Ingresa el numero 9"))
-numero10=int(input("Ingresa el numero 10"))
-
-#Lista con los numeros
-numeros=[numero1,numero2,numero3,numero4,numero5,numero6,numero7,numero8,numero9,numero10]
-
-#TUPLAS
-tupla1=(numero1,numero1*2)
-tupla2=(numero2,numero2*2)
-tupla3=(numero3,numero3*2)
-tupla4=(numero4,numero4*2)
-tupla5=(numero5,numero5*2)
-tupla6=(numero6,numero6*2)
-tupla7=(numero7,numero7*2)
-tupla8=(numero8,numero8*2)
-tupla9=(numero9,numero9*2)
-tupla10=(numero10,numero10*2)
-Total_de_tuplas=[tupla1+tupla2+tupla3+tupla4+tupla5+tupla6+tupla7+tupla8+tupla9+tupla10]
-Suma_de_numero=numero1+numero2+numero3+numero4+numero5+numero6+numero7+numero8+numero9+numero10
-Promedio=Suma_de_numero/10
-Promedio_mitad=Promedio/2"""
-
-
-
