@@ -1,4 +1,4 @@
-"""#EJEMPLO DE
+#EJEMPLO DE
 print("SISTEMA DE EVALUACIÓN")
 print("si tu nota es 2.9 o menos pierdes la materia y si es 3.0 o mas ganas la materia")
 nombre=input("ingresar el nombre del estudiante: ")
@@ -115,58 +115,5 @@ numero4=int(input("ingresa el primer numero: "))
 numeros.append(numero4)
 
 print("el numero mayor es:" , max(numeros))
-print("el numero menor es:", min(numeros))"""
-
-"""print("EJEPLO DE INSERT")
-lista=[1,2,4]
-lista.insert(2,3)
-print(lista)"""
-
-"""print("EJEMPLO DE REMOVE")
-frutas=['banana', 'banana', 'naranja', 'banana']
-frutas.remove('banana')
-print(frutas)
-
-print("EJEMPLO DE MAX")
-print("letras")
-letras=['ana','carlos','beatriz']
-print(max(letras))
-
-print("EJEMPLO DE MIN")"
-numeros=[5,2,8,1,9]
-minimo=min(numeros)
-print("el valor minimo es:",minimo)
-
-print("EJEMPLO DE.INDEX")
-nombres=['Ana','Luis','Carlos','Luis']
-print(nombres.index('Luis'))
-
-print("EJEMPLO DE remove")
-numeros=[1,2,3,2]
-numeros[3]-4
-numeros.remove(4)
-print(numeros)
-
-#OTRA FORMA
-numeros=[1,2,3,2]
-numeros.reverse()
-numeros.remove(2)
-numeros.reverse()
-print(numeros)"""
-
-print("EJEMPLO DE TUPLAS")
-mi_tupla=(1,2,3,4,)
-otra_tupla=("Hola","Como","estas","?")
-"""clientes=["pedro","ana","carlos","isabela","carlos","ana","carlos,sofia,Lery,isabela,lery"]
-
-clientes[0]=clientes[0].upper()
-clientes[1]=clientes[1].upper()
-clientes[2]=clientes[2].upper()
-clientes[3]=clientes[3].upper()
-clientes[4]=clientes[0].upper()
-clientes[5]=clientes[1].upper()"""
-
-
-
-
+print("el numero menor es:", min(numeros))
 

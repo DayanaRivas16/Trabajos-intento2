@@ -1,4 +1,4 @@
-"""#1.suma de dos numeros
+#1.suma de dos numeros
 numero=int(input("ingresa el primer numero "))
 numero2=int(input("ingresa el segundo numero "))
 print("la suma es:",numero+numero2)
@@ -107,28 +107,34 @@ print("resta", numeroo1-numeroo2)
 print("multiplicacion", numeroo1* numeroo2)
 print("division", numeroo1/ numeroo2)
 
+print("------------------------------------")
+
 #17. Doble del numero
 nu=int(input("ingresar un numero "))
 print("su numero doblado es", nu*2)
 
+print("------------------------------------")
+
 #18.Mitd de un numero
 n=int(input("ingresa un numero "))
 print("la mitad es:", n/2)
-
+print("------------------------------------")
 #19. contar caracteres de una frase
 frase=input("ingrese una frase")
 print("la frase tiene", len (frase),"caracteres")
 #DATO: len se usa para saber cuantas letras tiene una palabra o cuantas cosas hay en una lista
 
+print("------------------------------------")
 #20. contar caracteres de una frase
 palabraa=input("ingrese una palabra: ")
 resultado=palabraa+palabraa+palabraa
-print("repeticion", resultado)"""
+print("repeticion", resultado)
+print("------------------------------------")
 
 #21. dos primeras y dos ultimas letras
 nombre300=input("ingresa tu nombre ")
 print("primera dos: ", nombre300[:2])
 print("ultimas dos: " , nombre300[-2:])
-
+print("------------------------------------")
 #22. letra del medio (longitud impar)
 
