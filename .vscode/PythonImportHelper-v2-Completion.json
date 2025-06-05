@@ -1,5 +1,41 @@
 [
     {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": ".vscode.Condicionales_3_talleres_cuaderno",
+        "description": ".vscode.Condicionales_3_talleres_cuaderno",
+        "peekOfCode": "nombre = input(\"Ingrese su nombre: \")\nedad = int(input(\"Ingrese su edad: \"))\nprint(f\"Nombre: {nombre}\")\nprint(f\"Edad: {edad}\")\nif edad >= 18:\n    print(\"Credito aprobado: el cliente es mayor de edad.\")\nelse:\n    print(\"Credito rechazado: el cliente no es menor de edad.\")\n#ENTRADAS\nedad = int(input(\"Ingrese la edad del cliente: \"))",
+        "detail": ".vscode.Condicionales_3_talleres_cuaderno",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": ".vscode.Condicionales_3_talleres_cuaderno",
+        "description": ".vscode.Condicionales_3_talleres_cuaderno",
+        "peekOfCode": "edad = int(input(\"Ingrese su edad: \"))\nprint(f\"Nombre: {nombre}\")\nprint(f\"Edad: {edad}\")\nif edad >= 18:\n    print(\"Credito aprobado: el cliente es mayor de edad.\")\nelse:\n    print(\"Credito rechazado: el cliente no es menor de edad.\")\n#ENTRADAS\nedad = int(input(\"Ingrese la edad del cliente: \"))\nprint(\"Edad ingresada:\", edad)",
+        "detail": ".vscode.Condicionales_3_talleres_cuaderno",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": ".vscode.Condicionales_3_talleres_cuaderno",
+        "description": ".vscode.Condicionales_3_talleres_cuaderno",
+        "peekOfCode": "edad = int(input(\"Ingrese la edad del cliente: \"))\nprint(\"Edad ingresada:\", edad)\nif edad < 4:\n    precio = 0\n    print(\"Precio asignado:\", precio)\n    print(\"Entrada gratuita.\")\nelif edad <= 18:\n    precio = 5\n    print(\"Precio asignado:\", precio)\n    print(\"El precio de la entrada es de 5 euros.\")",
+        "detail": ".vscode.Condicionales_3_talleres_cuaderno",
+        "documentation": {}
+    },
+    {
+        "label": "operacion",
+        "kind": 5,
+        "importPath": ".vscode.Condicionales_3_talleres_cuaderno",
+        "description": ".vscode.Condicionales_3_talleres_cuaderno",
+        "peekOfCode": "operacion = input(\"Seleccione la operación: \")\nif operacion == 's':\n    num1 = float(input(\"Ingrese el primer número: \"))\n    num2 = float(input(\"Ingrese el segundo número: \"))\n    resultado = num1 + num2\n    print(\"Resultado:\", resultado)\nelif operacion == 'r':\n    num1 = float(input(\"Ingrese el primer número: \"))\n    num2 = float(input(\"Ingrese el segundo número: \"))\n    resultado = num1 - num2",
+        "detail": ".vscode.Condicionales_3_talleres_cuaderno",
+        "documentation": {}
+    },
+    {
         "label": "x",
         "kind": 5,
         "importPath": ".vscode.sentencia if",
@@ -321,6 +357,114 @@
         "description": ".vscode.taller-de-tuplas_diccionario",
         "peekOfCode": "promedio_final = (promedio1 + promedio2 + promedio3) / 3\n# Mostrar boletín sin formatear\nprint(\"\\n--- BOLETÍN DE CALIFICACIONES ---\\n\")\nprint(\"Nombre del estudiante:\", estudiante[\"nombre\"])\nprint()\nprint(\"Asignatura:\", materia1[0][0])\nprint(\"  Nota 1:\", materia1[1])\nprint(\"  Nota 2:\", materia1[2])\nprint(\"  Promedio:\", materia1[0][1])\nprint()",
         "detail": ".vscode.taller-de-tuplas_diccionario",
+        "documentation": {}
+    },
+    {
+        "label": "numero100",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numero100 = int(input(\"Ingrese un número: \"))\nif numero100 > 0:\n    print(\"El número es positivo.\")\nelif numero100 < 0:\n    print(\"El número es negativo.\")\nelse:\n    print(\"El número es cero.\")\n# 2. Calcular el mayor de dos números\nnumero2 = int(input(\"Ingrese el primer número: \"))\nnumero3 = int(input(\"Ingrese el segundo número: \"))",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numero2 = int(input(\"Ingrese el primer número: \"))\nnumero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse:\n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numero3",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse:\n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))\nif num % 2 == 0:",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "num = int(input(\"Ingrese un número: \"))\nif num % 2 == 0:\n    print(\"El número es par.\")\nelse:\n    print(\"El número es impar.\")\n# 4. Verificar si un número está entre 10 y 20 \nNUM12 = int(input(\"Ingrese un número: \"))\nif NUM12 >= 10:\n    if NUM12 <= 20:\n        print(\"El número SI está entre 10 y 20.\")",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "NUM12",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "NUM12 = int(input(\"Ingrese un número: \"))\nif NUM12 >= 10:\n    if NUM12 <= 20:\n        print(\"El número SI está entre 10 y 20.\")\n    else:\n        print(\"El número NO está entre 10 y 20.\")\nelse:\n    print(\"El número NO está entre 10 y 20.\")\n# 5. Encontrar el mayor de tres números \na = int(input(\"Ingrese el primer número: \"))",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "a = int(input(\"Ingrese el primer número: \"))\nb = int(input(\"Ingrese el segundo número: \"))\nc = int(input(\"Ingrese el tercer número: \"))\nif a >= b:\n    if a >= c:\n        print(\"El mayor es:\", a)\n    else:\n        print(\"El mayor es:\", c)\nelse:\n    if b >= c:",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "b = int(input(\"Ingrese el segundo número: \"))\nc = int(input(\"Ingrese el tercer número: \"))\nif a >= b:\n    if a >= c:\n        print(\"El mayor es:\", a)\n    else:\n        print(\"El mayor es:\", c)\nelse:\n    if b >= c:\n        print(\"El mayor es:\", b)",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "c = int(input(\"Ingrese el tercer número: \"))\nif a >= b:\n    if a >= c:\n        print(\"El mayor es:\", a)\n    else:\n        print(\"El mayor es:\", c)\nelse:\n    if b >= c:\n        print(\"El mayor es:\", b)\n    else:",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "precio = float(input(\"Ingrese el total de la compra: \"))\nif precio > 100:\n    descuento = precio * 0.10\n    precio = precio - descuento\nprint(\"El precio final es:\", precio)\n# 7. Verificar si una persona puede votar\nedad = int(input(\"Ingrese su edad: \"))\nif edad >= 18:\n    print(\"Puede votar.\")\nelse:",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "edad = int(input(\"Ingrese su edad: \"))\nif edad >= 18:\n    print(\"Puede votar.\")\nelse:\n    print(\"No puede votar.\")\n# 8. Descuento del 20% para clientes VIP \nprecio = float(input(\"Ingrese el precio del producto: \"))\ntipo = input(\"¿Es cliente VIP o normal?: \")\nif tipo == \"VIP\":\n    descuento = precio * 0.20",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "precio = float(input(\"Ingrese el precio del producto: \"))\ntipo = input(\"¿Es cliente VIP o normal?: \")\nif tipo == \"VIP\":\n    descuento = precio * 0.20\n    precio = precio - descuento\nelse:\n    if tipo == \"vip\":\n        descuento = precio * 0.20\n        precio = precio - descuento\nprint(\"El precio final es:\", precio)",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "tipo",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "tipo = input(\"¿Es cliente VIP o normal?: \")\nif tipo == \"VIP\":\n    descuento = precio * 0.20\n    precio = precio - descuento\nelse:\n    if tipo == \"vip\":\n        descuento = precio * 0.20\n        precio = precio - descuento\nprint(\"El precio final es:\", precio)",
+        "detail": ".vscode.taller_condicionales_vive_digital",
         "documentation": {}
     },
     {
