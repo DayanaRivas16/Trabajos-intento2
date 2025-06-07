@@ -463,7 +463,97 @@
         "kind": 5,
         "importPath": ".vscode.taller_condicionales_vive_digital",
         "description": ".vscode.taller_condicionales_vive_digital",
-        "peekOfCode": "tipo = input(\"¿Es cliente VIP o normal?: \")\nif tipo == \"VIP\":\n    descuento = precio * 0.20\n    precio = precio - descuento\nelse:\n    if tipo == \"vip\":\n        descuento = precio * 0.20\n        precio = precio - descuento\nprint(\"El precio final es:\", precio)",
+        "peekOfCode": "tipo = input(\"¿Es cliente VIP o normal?: \")\nif tipo == \"VIP\":\n    descuento = precio * 0.20\n    precio = precio - descuento\nelse:\n    if tipo == \"vip\":\n        descuento = precio * 0.20\n        precio = precio - descuento\nprint(\"El precio final es:\", precio)\n# 9. Verificar si un numero es multiplo de 3 y de 5",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numero400",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numero400 = int(input(\"Ingrese un número: \"))\nif numero400 % 3 == 0:\n    if numero400 % 5 == 0:\n        print(\"Es múltiplo de 3 y de 5.\")|1111\n    else:\n        print(\"No es múltiplo de 3 y de 5.\")\nelse:\n    print(\"No es múltiplo de 3 y de 5.\")\n # 10. Verificar si un número es divisible entre dos números dados\nnumerooo = int(input(\"Ingrese un número: \"))",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numerooo",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numerooo = int(input(\"Ingrese un número: \"))\nd1 = int(input(\"Ingrese el primer divisor: \"))\nd2 = int(input(\"Ingrese el segundo divisor: \"))\nif numerooo % d1 == 0:\n    if numerooo % d2 == 0:\n        print(\"Es divisible entre ambos.\")\n    else:\n        print(\"No es divisible entre ambos.\")\nelse:\n    print(\"No es divisible entre ambos\")",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "d1 = int(input(\"Ingrese el primer divisor: \"))\nd2 = int(input(\"Ingrese el segundo divisor: \"))\nif numerooo % d1 == 0:\n    if numerooo % d2 == 0:\n        print(\"Es divisible entre ambos.\")\n    else:\n        print(\"No es divisible entre ambos.\")\nelse:\n    print(\"No es divisible entre ambos\")\n# 11. Ingresar 5 números y verificar el tercero",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "d2 = int(input(\"Ingrese el segundo divisor: \"))\nif numerooo % d1 == 0:\n    if numerooo % d2 == 0:\n        print(\"Es divisible entre ambos.\")\n    else:\n        print(\"No es divisible entre ambos.\")\nelse:\n    print(\"No es divisible entre ambos\")\n# 11. Ingresar 5 números y verificar el tercero\nnumeros = []",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeros = []\nprint(\"Ingresa 5 números:\")\nnumeroo1 = int(input(\"Número 1: \"))\nnumeros.append(numeroo1)\nnumeroo2 = int(input(\"Número 2: \"))\nnumeros.append(numeroo2)\nnumeroo3 = int(input(\"Número 3: \"))\nnumeros.append(numeroo3)\nnumeroo4 = int(input(\"Número 4: \"))\nnumeros.append(numeroo4)",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeroo1",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeroo1 = int(input(\"Número 1: \"))\nnumeros.append(numeroo1)\nnumeroo2 = int(input(\"Número 2: \"))\nnumeros.append(numeroo2)\nnumeroo3 = int(input(\"Número 3: \"))\nnumeros.append(numeroo3)\nnumeroo4 = int(input(\"Número 4: \"))\nnumeros.append(numeroo4)\nnumeroo5 = int(input(\"Número 5: \"))\nnumeros.append(numeroo5)",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeroo2",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeroo2 = int(input(\"Número 2: \"))\nnumeros.append(numeroo2)\nnumeroo3 = int(input(\"Número 3: \"))\nnumeros.append(numeroo3)\nnumeroo4 = int(input(\"Número 4: \"))\nnumeros.append(numeroo4)\nnumeroo5 = int(input(\"Número 5: \"))\nnumeros.append(numeroo5)\nif numeros[2] > 10:\n    print(\"Mayor a 10\")",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeroo3",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeroo3 = int(input(\"Número 3: \"))\nnumeros.append(numeroo3)\nnumeroo4 = int(input(\"Número 4: \"))\nnumeros.append(numeroo4)\nnumeroo5 = int(input(\"Número 5: \"))\nnumeros.append(numeroo5)\nif numeros[2] > 10:\n    print(\"Mayor a 10\")\nelse:\n    print(\"Menor o igual a 10\")",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeroo4",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeroo4 = int(input(\"Número 4: \"))\nnumeros.append(numeroo4)\nnumeroo5 = int(input(\"Número 5: \"))\nnumeros.append(numeroo5)\nif numeros[2] > 10:\n    print(\"Mayor a 10\")\nelse:\n    print(\"Menor o igual a 10\")\n # 12. Ver si el número 7 está en la lista\n# lista = [3, 5, 7, 9]",
+        "detail": ".vscode.taller_condicionales_vive_digital",
+        "documentation": {}
+    },
+    {
+        "label": "numeroo5",
+        "kind": 5,
+        "importPath": ".vscode.taller_condicionales_vive_digital",
+        "description": ".vscode.taller_condicionales_vive_digital",
+        "peekOfCode": "numeroo5 = int(input(\"Número 5: \"))\nnumeros.append(numeroo5)\nif numeros[2] > 10:\n    print(\"Mayor a 10\")\nelse:\n    print(\"Menor o igual a 10\")\n # 12. Ver si el número 7 está en la lista\n# lista = [3, 5, 7, 9]\n# if lista[0] == 7:\n#     print(\"Está en la lista\")",
         "detail": ".vscode.taller_condicionales_vive_digital",
         "documentation": {}
     },

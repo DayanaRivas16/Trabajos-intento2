@@ -10,7 +10,7 @@ elif A==6:
 else:
     print("no se cumplio con la condicion")
     
-
+    
 #CREDITO BANCARIO
 nombre = input("Ingrese su nombre: ")
 edad = int(input("Ingrese su edad: "))
