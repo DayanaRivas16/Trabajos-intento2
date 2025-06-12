@@ -1,0 +1,3 @@
+El repositorio va tomando muy buena forma, se nota el progreso y el esfuerzo en cada ejercicio. Como recomendación para seguir mejorando, te sugeriría documentar un poco más el código agregando comentarios que expliquen la lógica de lo que estás implementando.
+
+También sería ideal dejar un poco más de espacio entre ejercicio y ejercicio, ya que esto mejora la legibilidad del código y es parte de las buenas prácticas de programación. Mantener un estilo limpio y bien documentado no solo facilita el mantenimiento del proyecto, sino que también refleja un trabajo más profesional.
