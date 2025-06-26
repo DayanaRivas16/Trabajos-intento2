@@ -1,5 +1,14 @@
 [
     {
+        "label": "producto",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nwhile producto.lower() != \"fin\":\n    Lista.append(producto)\n    producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nprint(f\"lista de compra: {Lista} \")\n#4 CONTADOR DE PARES E IMPARES\ncontador=0\npares=0\nimpares=0\nwhile numero <=10:",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
         "label": "nombre",
         "kind": 5,
         "importPath": ".vscode.Condicionales_3_talleres_cuaderno",
