@@ -1,10 +1,145 @@
 [
     {
+        "label": "clave",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "clave = input (\"Ingresar la contraseña: \")\nwhile clave != \"python123\":\n    print(\"contraseña incorrecta :\")\n    clave=input(\"intenta de nuevo: \")\nprint(\"! acceso concedido\")\n#3 LISTA DE COMPRAS\nLista=[]\nproducto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nwhile producto.lower() != \"fin\":\n    Lista.append(producto)",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
         "label": "producto",
         "kind": 5,
         "importPath": ".vscode.BUCLES",
         "description": ".vscode.BUCLES",
-        "peekOfCode": "producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nwhile producto.lower() != \"fin\":\n    Lista.append(producto)\n    producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nprint(f\"lista de compra: {Lista} \")\n#4 CONTADOR DE PARES E IMPARES\ncontador=0\npares=0\nimpares=0\nwhile numero <=10:",
+        "peekOfCode": "producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nwhile producto.lower() != \"fin\":\n    Lista.append(producto)\n    producto = input(\"Ingresar un producto (Escribir fin para terminar): \")\nprint(f\"lista de compra: {Lista} \")\n#4 CONTADOR DE PARES E IMPARES\ncontador=0\npares=0\nimpares=0\nwhile contador <=10:",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "numero_secreto",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "numero_secreto = 17\nintento = int(input(\"Adivina el número: \"))\nwhile intento != numero_secreto:\n    if intento < numero_secreto:\n        print(\"Es mayor.\")\n    else:\n        print(\"Es menor.\")\n    intento = int(input(\"Intenta otra vez: \"))\nprint(\"¡Correcto! Adivinaste el número.\")\n#8TUPLA DE FRUTAS",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "intento",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "intento = int(input(\"Adivina el número: \"))\nwhile intento != numero_secreto:\n    if intento < numero_secreto:\n        print(\"Es mayor.\")\n    else:\n        print(\"Es menor.\")\n    intento = int(input(\"Intenta otra vez: \"))\nprint(\"¡Correcto! Adivinaste el número.\")\n#8TUPLA DE FRUTAS\nfrutas = (\"manzana\", \"pera\", \"mango\", \"uva\", \"banana\")",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "frutas",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "frutas = (\"manzana\", \"pera\", \"mango\", \"uva\", \"banana\")\nadivinanza = input(\"Adivina una fruta: \").lower()\nwhile adivinanza not in frutas:\n    adivinanza = input(\"Incorrecto. Intenta otra fruta: \").lower()\nprint(\"¡Acertaste! Esa fruta está en la lista.\")\n#9DICCIONARIO DE TRADUCCIÓN\ndiccionario = {\n    \"hola\": \"hello\",\n    \"gracias\": \"thank you\",\n    \"perro\": \"dog\",",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "adivinanza",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "adivinanza = input(\"Adivina una fruta: \").lower()\nwhile adivinanza not in frutas:\n    adivinanza = input(\"Incorrecto. Intenta otra fruta: \").lower()\nprint(\"¡Acertaste! Esa fruta está en la lista.\")\n#9DICCIONARIO DE TRADUCCIÓN\ndiccionario = {\n    \"hola\": \"hello\",\n    \"gracias\": \"thank you\",\n    \"perro\": \"dog\",\n    \"gato\": \"cat\",",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "diccionario = {\n    \"hola\": \"hello\",\n    \"gracias\": \"thank you\",\n    \"perro\": \"dog\",\n    \"gato\": \"cat\",\n    \"casa\": \"house\"\n}\npalabra = input(\"Escribe una palabra en español: \").lower()\nwhile palabra != \"salir\":\n    if palabra in diccionario:",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "palabra = input(\"Escribe una palabra en español: \").lower()\nwhile palabra != \"salir\":\n    if palabra in diccionario:\n        print(\"Traducción:\", diccionario[palabra])\n    else:\n        print(\"Esa palabra no está en el diccionario.\")\n    palabra = input(\"Escribe otra palabra (o 'salir' para terminar): \").lower()\n    #10 CALCULADORA BASICA\n    while True:\n    print (\"\\nMenú:\")",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "personas",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "personas = {}\nwhile True:\n    nombre = input(\"Escribe el nombre (o 'salir' para terminar): \")\n    if nombre.lower() == \"salir\":\n        break\n    edad = int(input(f\"Ingrese la edad de {nombre}: \"))\n    personas[nombre] = edad\nprint(\"Diccionario completo:\", personas)\n#12 BUSCAR EN LISTA\ncolores = [\"rojo\", \"azul\", \"verde\", \"amarillo\", \"negro\"]",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "colores = [\"rojo\", \"azul\", \"verde\", \"amarillo\", \"negro\"]\nintento = input(\"Escribe un color: \").lower()\nwhile intento not in colores:\n    intento = input(\"No está. Intenta con otro color: \").lower()\nprint(\"¡Correcto! Ese color está en la lista.\")\n#13 POTENCIAS DE UN NUMERO\nnumero = int(input(\"Escribe un número: \"))\npotencia = 1\nwhile potencia <= 5:\n    print(f\"{numero}^{potencia} = {numero ** potencia}\")",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "intento",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "intento = input(\"Escribe un color: \").lower()\nwhile intento not in colores:\n    intento = input(\"No está. Intenta con otro color: \").lower()\nprint(\"¡Correcto! Ese color está en la lista.\")\n#13 POTENCIAS DE UN NUMERO\nnumero = int(input(\"Escribe un número: \"))\npotencia = 1\nwhile potencia <= 5:\n    print(f\"{numero}^{potencia} = {numero ** potencia}\")\n    potencia += 1",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "numero = int(input(\"Escribe un número: \"))\npotencia = 1\nwhile potencia <= 5:\n    print(f\"{numero}^{potencia} = {numero ** potencia}\")\n    potencia += 1\n#14 LISTA DE CUADROS\ncuadrados = []\ncontador = 0\nwhile contador < 5:\n    num = int(input(f\"Escribe el número {contador + 1}: \"))",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "potencia",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "potencia = 1\nwhile potencia <= 5:\n    print(f\"{numero}^{potencia} = {numero ** potencia}\")\n    potencia += 1\n#14 LISTA DE CUADROS\ncuadrados = []\ncontador = 0\nwhile contador < 5:\n    num = int(input(f\"Escribe el número {contador + 1}: \"))\n    cuadrados.append(num ** 2)",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "cuadrados",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "cuadrados = []\ncontador = 0\nwhile contador < 5:\n    num = int(input(f\"Escribe el número {contador + 1}: \"))\n    cuadrados.append(num ** 2)\n    contador += 1\nprint(\"Lista de cuadrados:\", cuadrados)\n#15 DICCIONARIO DE ESTUDIANTES\nestudiantes = {}\nwhile True:",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "contador = 0\nwhile contador < 5:\n    num = int(input(f\"Escribe el número {contador + 1}: \"))\n    cuadrados.append(num ** 2)\n    contador += 1\nprint(\"Lista de cuadrados:\", cuadrados)\n#15 DICCIONARIO DE ESTUDIANTES\nestudiantes = {}\nwhile True:\n    nombre = input(\"Nombre del estudiante (o 'fin' para terminar): \")",
+        "detail": ".vscode.BUCLES",
+        "documentation": {}
+    },
+    {
+        "label": "estudiantes",
+        "kind": 5,
+        "importPath": ".vscode.BUCLES",
+        "description": ".vscode.BUCLES",
+        "peekOfCode": "estudiantes = {}\nwhile True:\n    nombre = input(\"Nombre del estudiante (o 'fin' para terminar): \")\n    if nombre.lower() == \"fin\":\n        break\n    nota = float(input(f\"Nota final de {nombre}: \"))\n    estudiantes[nombre] = nota\nprint(\"Estudiantes registrados:\", estudiantes)",
         "detail": ".vscode.BUCLES",
         "documentation": {}
     },
@@ -382,7 +517,7 @@
         "kind": 5,
         "importPath": ".vscode.taller_condicionales_vive_digital",
         "description": ".vscode.taller_condicionales_vive_digital",
-        "peekOfCode": "numero2 = int(input(\"Ingrese el primer número: \"))\nnumero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse:\n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))",
+        "peekOfCode": "numero2 = int(input(\"Ingrese el primer número: \"))\nnumero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse: \n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))",
         "detail": ".vscode.taller_condicionales_vive_digital",
         "documentation": {}
     },
@@ -391,7 +526,7 @@
         "kind": 5,
         "importPath": ".vscode.taller_condicionales_vive_digital",
         "description": ".vscode.taller_condicionales_vive_digital",
-        "peekOfCode": "numero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse:\n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))\nif num % 2 == 0:",
+        "peekOfCode": "numero3 = int(input(\"Ingrese el segundo número: \"))\nif numero2 > numero3:\n    print(\"El mayor es:\", numero2)\nelif numero3 > numero2:\n    print(\"El mayor es:\", numero3)\nelse: \n    print(\"Ambos números son iguales.\")\n# 3. Determinar si un número es par o impar\nnum = int(input(\"Ingrese un número: \"))\nif num % 2 == 0:",
         "detail": ".vscode.taller_condicionales_vive_digital",
         "documentation": {}
     },

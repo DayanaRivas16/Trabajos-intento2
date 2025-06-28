@@ -14,7 +14,7 @@ if numero2 > numero3:
     print("El mayor es:", numero2)
 elif numero3 > numero2:
     print("El mayor es:", numero3)
-else:
+else: 
     print("Ambos números son iguales.")
 # 3. Determinar si un número es par o impar
 num = int(input("Ingrese un número: "))
